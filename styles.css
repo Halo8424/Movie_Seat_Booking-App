@@ -80,6 +80,9 @@ body{
     justify-content: center;
     margin: 0 10px;
 }
+.showcase li small{
+    margin-left: 2px;
+}
 .row{
     display: flex;
 }
