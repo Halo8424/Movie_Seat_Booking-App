@@ -13,7 +13,9 @@ function updateSelectedCount(){
     // console.log(selectedSeats);
     // capturing the number of selected seats
     const selectedSeatsCount = selectedSeats.length;
-    console.log(selectedSeatsCount);
+    // console.log(selectedSeatsCount);
+    count.innerText = selectedSeatsCount;
+    
 };
 
 // Event listener
