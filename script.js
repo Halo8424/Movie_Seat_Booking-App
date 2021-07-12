@@ -25,7 +25,7 @@ function updateSelectedCount(){
 // Movie select listener
 movieSelect.addEventListener('change', e =>{
     ticketPrice = +e.target.value;
-    console.log(e.target.selectedIndex)
+    //console.log(e.target.selectedIndex, e.target.value)
     updateSelectedCount();
 });
 // Event listener for Seats
