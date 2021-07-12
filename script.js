@@ -40,6 +40,12 @@ function populateUI(){
             };
         });
     }
+    // Grabing the saved selected movie from local strorage
+    const selectedMovieIndex = localStorage.getItem('selectedMovieIndex');
+
+    if(selectedMovieIndex !== null){
+        movieSelect.selectedIndex = selectedMovieIndex;
+    };
 };
 
 
