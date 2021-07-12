@@ -6,4 +6,8 @@ const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
 
 const ticketPrice = +movieSelect.value;
-console.log(typeof ticketPrice);
+
+// Event listener
+container.addEventListener('click',(e)=>{
+    console.log(e.target)
+});
