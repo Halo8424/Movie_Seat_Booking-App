@@ -65,3 +65,6 @@ container.addEventListener('click',(e)=>{
         updateSelectedCount()
     };
 });
+
+// Inital count and total
+updateSelectedCount();
